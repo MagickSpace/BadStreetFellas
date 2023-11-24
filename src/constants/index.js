@@ -211,48 +211,186 @@ export const services = [
       },
     },
   ]
+
+  export const features = [
+    {
+      f1: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f2: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f3: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f4: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f5: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f6: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f7: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f8: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+      f9: {
+        title: {
+          uk: '¿Cuanto dura una clase?',
+          en: 'How long does a class last?',
+          ru: 'How long does a class last?',
+        },
+        text: {
+          uk: 'Cada clase son 60 minutos de principio a fin. La clase se divide en tres secciones. Cada sesión comienza con 15 minutos de calentamiento seguidos de los ejercicios de habilidad del dia (cada dia es diferente). Terminamos con 5 minutos de vuelta a la calma con estiramientos completos.',
+          en: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+          ru: 'Each class is 60 minutes from start to finish. The class is divided into three sections. Each session begins with 15 minutes of warm-up, followed by the day&apos;s skill exercises (which vary each day). We finish with 5 minutes of cool-down with full stretching.',
+        },
+      },
+    },
+  
+  ]
   
   // Translation Completed
   export const navLinks = [
     {
       label: {
-        uk: 'Acerca',
-        en: 'About',
-        ru: 'About',
+        uk: "Про Нас",
+        en: "About Us",
+        ru: "Про Нас",
       },
-      link: '/#acerca',
+      link: "/about",
     },
     {
       label: {
-        uk: 'Навчання',
-        en: 'Trainings',
-        ru: 'Обучение',
+        uk: "Компанія",
+        en: "Company",
+        ru: "Компания",
       },
-      link: '/#entrenamientos',
+      link: "/company",
     },
     {
       label: {
-        uk: 'Відгуки',
-        en: 'Testimonials',
-        ru: 'Отзывы',
+        uk: "Сервіси",
+        en: "Services",
+        ru: "Сервисы",
       },
-      link: '/#testimonios',
+      link: "/services",
     },
     {
       label: {
-        uk: 'FAQ',
-        en: 'FAQ',
-        ru: 'FAQ',
+        uk: "Портфоліо",
+        en: "Portfolio",
+        ru: "Портфолио",
       },
-      link: '/#faq',
+      link: "/portfolio",
     },
     {
       label: {
-        uk: 'Блог',
-        en: 'Blog',
-        ru: 'Блог',
+        uk: "Партнери",
+        en: "Partners",
+        ru: "Партнёры",
       },
-      link: '/blog',
+      link: "/partners",
+    },
+    {
+      label: {
+        uk: "Ціни",
+        en: "Pricing",
+        ru: "Цены",
+      },
+      link: "/pricing",
+    },
+    {
+      label: {
+        uk: "Блог",
+        en: "Blog",
+        ru: "Блог",
+      },
+      link: "/blog",
+    },
+    {
+      label: {
+        uk: "Контакти",
+        en: "Contacts",
+        ru: "Контакты",
+      },
+      link: "/contacts",
     },
   ]
   
@@ -312,38 +450,38 @@ export const services = [
   export const contacts = [
     {
       label: {
-        uk: 'Телефон',
-        en: 'Cellphone',
-        ru: 'Телефон',
+        uk: "Телефон",
+        en: "Cellphone",
+        ru: "Телефон",
       },
-      link: 'tel:+11-111-11-11-11',
-      linkLabel: '+11 111 11 11 11',
+      link: "tel:+11-111-11-11-11",
+      linkLabel: "+11 111 11 11 11",
     },
     {
       label: {
-        uk: 'Електронна пошта',
-        en: 'Email',
-        ru: 'Електронная Почта',
+        uk: "Електронна пошта",
+        en: "Email",
+        ru: "Електронная Почта",
       },
-      link: 'mailto:email@example.com',
-      linkLabel: 'email@example.com',
+      link: "mailto:email@example.com",
+      linkLabel: "email@example.com",
     },
     {
       label: {
-        uk: 'Zona',
-        en: 'Location',
-        ru: 'Instagram',
+        uk: "Локація",
+        en: "Location",
+        ru: "Локация",
       },
-      link: 'https://maps.app.goo.gl/*******',
-      linkLabel: 'Street, Town, Place, Country',
+      link: "https://maps.app.goo.gl/*******",
+      linkLabel: "Street, Town, Place, Country",
     },
     {
       label: {
-        uk: 'Instagram',
-        en: 'Instagram',
-        ru: 'Instagram',
+        uk: "Instagram",
+        en: "Instagram",
+        ru: "Instagram",
       },
-      link: 'http://www.instagram.com',
-      linkLabel: '@',
+      link: "http://www.instagram.com",
+      linkLabel: "@",
     },
   ]

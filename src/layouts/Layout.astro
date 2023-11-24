@@ -2,11 +2,8 @@
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar.astro";
 
-export interface Props {
-  title: string
-  lang: string
-}
-const { title, lang } = Astro.props
+import { getLangFromUrl } from '@/i18n/utils'
+const lang = getLangFromUrl(Astro.url)
 ---
 
 <!doctype html>
@@ -48,7 +45,7 @@ const { title, lang } = Astro.props
     </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+  
   </head>
   <body>
     <Navbar />
