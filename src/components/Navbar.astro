@@ -8,7 +8,7 @@ import { navLinks } from "@/constants/index";
 // React Imports - Components
 import { SheetNav } from "@/components/react/SheetNav";
 import { PopoverLang } from "@/components/react/PopoverLang";
-import { ModeToggle } from "@/components/ModeToggle";
+import { ThemeToggle } from "@/components/theme-toggle";
 import LogoLoading from "./typography/LogoLoading.astro";
 
 const lang: 'uk' | 'en' | 'ru' = getLangFromUrl(Astro.url)
@@ -93,7 +93,7 @@ const lang: 'uk' | 'en' | 'ru' = getLangFromUrl(Astro.url)
           <PopoverLang client:load lang={lang} url={Astro.url} />
           <div></div>
         </div>
-        <div><ModeToggle client:load /></div>
+        <div><ThemeToggle client:load /></div>
       </nav>
     </div>
   </div>
