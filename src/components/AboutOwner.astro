@@ -1,0 +1,34 @@
+---
+import SmallText from "./typography/SmallText.astro";
+import H2 from "./typography/H2.astro";
+import Large from "./typography/Large.astro";
+---
+
+<section class="py-10 sm:py-16 lg:py-24">
+    <div class="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="mx-auto text-left md:max-w-lg lg:max-w-2xl md:text-center">
+            <H2>
+                I am building a product that can
+                <span class="relative inline-block">
+                    <span class="absolute inline-block w-full h-2 bg-green-500 bottom-1.5"></span>
+                    <span class="relative"> solve developer’s pain </span>
+                </span>
+            </H2>
+        </div>
+
+        <div class="grid grid-cols-1 mt-8 md:mt-20 gap-y-6 md:grid-cols-2 gap-x-10">
+            <div>
+                <img class="w-full mx-auto sm:max-w-xs" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/2/business-man.jpg" alt="" />
+            </div>
+
+            <div>
+                <Large>Hey! I am John, founder of Celebration.</Large>
+                <SmallText>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</SmallText>
+                <SmallText>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</SmallText>
+
+                <H2>How do I do this without any investment?</H2>
+                <SmallText>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</SmallText>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,5 +1,5 @@
 {
-  "name": "BadStreetFellas",
+  "name": "badstreetfellas",
   "description": "An Astro template for your website for developers.",
   "author": {
     "name": "Hrihorii 'DevOpSick' Ilin"
@@ -28,6 +28,7 @@
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-popover": "^1.0.7",
     "@radix-ui/react-slot": "^1.0.2",
+    "@rollup/plugin-yaml": "^4.1.2",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^20.9.4",
     "@types/react": "^18.0.21",
@@ -43,6 +44,7 @@
     "react-dom": "^18.0.0",
     "react-hook-form": "^7.48.2",
     "run": "^1.4.0",
+    "sharp": "^0.32.6",
     "tailwind-merge": "^2.0.0",
     "tailwindcss": "^3.0.24",
     "tailwindcss-animate": "^1.0.7",

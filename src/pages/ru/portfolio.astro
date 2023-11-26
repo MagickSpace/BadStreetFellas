@@ -1,12 +1,17 @@
 ---
 import Container from "@/components/Container.astro";
 import Layout from "@/layouts/Layout.astro";
+import PortfolioTeam from "../../components/PortfolioTeam.astro";
+import PortfolioQustions from "../../components/PortfolioQustions.astro";
+import PortfolioCards from "../../components/PortfolioCards.astro";
 
 export const prerender = true
 ---
 
-<Layout title="Сервіси">
+<Layout title="Наши Сервисы">
 	<Container>
-		
+		<PortfolioTeam />
+		<PortfolioQustions />
+		<PortfolioCards />
 	</Container>
 </Layout>

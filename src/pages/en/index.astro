@@ -1,11 +1,20 @@
 ---
 import Container from "@/components/Container.astro";
 import Layout from "@/layouts/Layout.astro";
+import Cta from "@/components/Cta.astro";
+import HeaderSection from "@/components/HeaderSection.astro";
+import Features from "@/components/Features.astro";
+import LogoHero from "@/components/LogoHero.astro";
 
+
+export const prerender = true
 ---
 
 <Layout title="Homepage">
 	<Container>
-
+		<LogoHero />
+		<Cta />
+		<Features />
 	</Container>
+	<HeaderSection />
 </Layout>
