@@ -1,21 +1,33 @@
 ---
-
+import Blockquote from "./typography/Blockquote.astro";
+import H4 from "./typography/H4.astro";
+import H2 from "./typography/H2.astro";
+import SmallText from "./typography/SmallText.astro";
+import { Button } from "@/components/ui/button";
 ---
 
-<section class="pt-10 bg-amber-400 2xl:py-24 2xl:bg-white sm:pt-16 md:pt-0">
-    <div class="px-4 mx-auto rounded-md bg-amber-400 max-w-7xl sm:px-6 lg:px-8">
+<section class="mt-5" >
+
+    <div class="px-4 mx-auto rounded-md bg-emerald-700 max-w-7xl sm:px-6 lg:px-8">
         <div class="2xl:pl-24">
             <div class="grid grid-cols-1 gap-y-12 md:grid-cols-2 md:gap-x-8 2xl:gap-x-20">
                 <div class="text-center md:py-16 xl:py-24 md:text-left">
-                    <blockquote>
-                        <p class="text-2xl font-semibold leading-relaxed text-gray-900">“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”</p>
-                    </blockquote>
-                    <div class="mt-6 sm:flex sm:items-baseline sm:justify-center md:justify-start">
-                        <p class="text-base font-semibold text-gray-900">Jenny Wilson</p>
-                        <p class="mt-2 text-base text-gray-700 sm:mt-0 sm:ml-2">Project Manager at Microsoft</p>
+                    <Blockquote>
+                        “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.”
+                    </Blockquote>
+                    <div class="mt-6 mx-auto sm:flex sm:items-baseline sm:justify-center md:justify-start">
+                        <H4>Jenny Wilson</H4>
+                        <div class="mx-5"><SmallText>Project Manager at Microsoft</SmallText></div>
                     </div>
-                    <p class="mt-12 text-base text-gray-900 lg:mt-20">Want to see Celebration in action?</p>
-                    <a href="#" title="" class="inline-flex items-center justify-center px-8 py-4 mt-4 text-base font-semibold text-white transition-all duration-200 bg-black rounded-md hover:opacity-80 focus:opacity-80" role="button"> Create your first website </a>
+                    <H2>Want to see Celebration in action?</H2>
+                    <div class="mt-5">
+                    <Button variant="outline">
+                        <a class="hover:text-emerald-500 transition-all duration-200 hover:opacity-80 focus:opacity-80" href="/pricing "> Create your first website </a>
+                        <svg class="w-5 h-5 ml-2 text-emerald-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
+                    </Button> 
+                </div>
                 </div>
 
                 <div class="relative">

@@ -1,8 +1,7 @@
 ---
 
-import Prose from "@/components/typography/Prose.astro";
-import H4 from "@/components/typography/H4.astro";
-import H3 from "@/components/typography/H3.astro";
+import { Button } from "@/components/ui/button"
+import SmallText from "./typography/SmallText.astro";
 import H2 from "@/components/typography/H2.astro";
 import H1 from "@/components/typography/H1.astro";
 
@@ -13,16 +12,25 @@ import H1 from "@/components/typography/H1.astro";
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
                 <div>
-                    <H3>A social media for learners</H3>
+                <div class="text-center">
+                    <SmallText>A social media for learners</SmallText>
+                </div>
                     <H1>Connect & learn from the experts</H1>
                     <H2>Grow your career fast with right mentor.</H2>
                     <H2>Already joined us?</H2>
                     <H2>Is that real?</H2>
-                    <a href="#" title="" class="text-cyan-500 transition-all duration-200 hover:underline"><H4>Log in</H4></a> 
+                    <div class="mt-5">
+                    <Button variant="ghost" >
+                        <a class="hover:text-emerald-500 transition-all duration-200 hover:underline" href="/about" >Get Started</a>
+                    </Button>
+                    <Button variant="ghost" >
+                        <a class="hover:text-emerald-500 transition-all duration-200 hover:underline" href="/about" >Get Started</a>
+                    </Button>
+                    </div>
                 </div>
 
                 <div>
-                    <img class="w-full" src="https://cdn.rareblocks.xyz/collection/celebration/images/hero/1/hero-img.png" alt="" />
+                    <img class="w-full" src="/Collaborate.png" alt="" />
                 </div>
             </div>
         </div>

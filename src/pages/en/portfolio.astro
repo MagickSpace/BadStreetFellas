@@ -1,16 +1,18 @@
 ---
 import Container from "@/components/Container.astro";
 import Layout from "@/layouts/Layout.astro";
-import PortfolioTeam from "../../components/PortfolioTeam.astro";
-import PortfolioQustions from "../../components/PortfolioQustions.astro";
-import PortfolioCards from "../../components/PortfolioCards.astro";
+import PortfolioHeroes from "@/components/PortfolioHeroes.astro";
+import PortfolioQustions from "@/components/PortfolioQustions.astro";
+import PortfolioCards from "@/components/PortfolioCards.astro";
+import PageHeader from "@/components/layout/PageHeader.astro";
 
 export const prerender = true
 ---
 
 <Layout title="Our Portfolio">
 	<Container>
-		<PortfolioTeam />
+		<PageHeader title="Portfolio" />
+		<PortfolioHeroes />
 		<PortfolioQustions />
 		<PortfolioCards />
 	</Container>

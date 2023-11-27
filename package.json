@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "astro check & astro dev --watch",
     "start": "astro dev",
-    "build": "astro check --watch & astro build",
+    "build": "astro check & astro build",
     "preview": "bunx --bun astro preview",
     "astro": "astro"
   },

@@ -1,23 +1,21 @@
 ---
 import Container from "@/components/Container.astro";
 import Layout from "@/layouts/Layout.astro";
-import AboutHero from "@/components/AboutHero.astro";
 import AboutSteps from "@/components/AboutSteps.astro";
-import AboutTeam from "@/components/AboutTeam.astro";
-import AboutOwner from "@/components/AboutOwner.astro";
 import AboutTestimonial from "@/components/AboutTestimonial.astro";
-import AboutPush from "@/components/AboutPush.astro";
+import AboutUsHero from "@/components/AboutUsHero.astro";
+import PageHeader from "@/components/layout/PageHeader.astro";
+import AboutFacts from "@/components/AboutFacts.astro";
 
 export const prerender = true
 ---
 
-<Layout title="Про Нас">
+<Layout title="Про Проект">
 	<Container>
-		<AboutHero />
+		<PageHeader title="Про проект" />
+		<AboutFacts />
 		<AboutSteps />
-		<AboutTeam />
-		<AboutOwner />
+		<AboutUsHero />
 		<AboutTestimonial />
-		<AboutPush />
 	</Container>
 </Layout>

@@ -5,6 +5,7 @@ import Cta from "@/components/Cta.astro";
 import HeaderSection from "@/components/HeaderSection.astro";
 import Features from "@/components/Features.astro";
 import LogoHero from "@/components/LogoHero.astro";
+import HeroStarter from "@/components/HeroStarter.astro";
 
 
 export const prerender = true
@@ -12,6 +13,7 @@ export const prerender = true
 
 <Layout title="Домашня Сторінка">
 	<Container>
+		<HeroStarter />
 		<LogoHero />
 		<Cta />
 		<Features />

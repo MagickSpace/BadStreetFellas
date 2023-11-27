@@ -4,20 +4,20 @@ import Layout from "@/layouts/Layout.astro";
 import ServicesHero from "@/components/ServicesHero.astro";
 import ServicesSteps from "@/components/ServicesSteps.astro";
 import ServicesPrice from "@/components/ServicesPrice.astro";
-import ServicesQuestions from "@/components/ServicesQuestions.astro";
-import ServicesPush from "@/components/ServicesPush.astro";
-import ServicesFacts from "@/components/ServicesFacts.astro";
+import ServicesHeroes from "@/components/ServicesHeroes.astro";
+import ServicesApp from "@/components/ServicesApp.astro";
+import ServicesGreed from "@/components/ServicesGreed.astro";
 
 export const prerender = true
 ---
 
-<Layout title="Наши Сервисы">
+<Layout title="Сервіси">
 	<Container>
-		<ServicesHero />
-		<ServicesFacts />
+		<ServicesHeroes />
+		<ServicesGreed />
 		<ServicesSteps />
+		<ServicesApp />
+		<ServicesHero />
 		<ServicesPrice />
-		<ServicesQuestions />
-		<ServicesPush />
 	</Container>
 </Layout>
